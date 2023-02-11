@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = socketIO(server);
 
-const port = 4500 || process.env.PORT;
+const port = process.env.PORT;
 
 app.use(cors())
 
